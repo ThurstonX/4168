@@ -49,7 +49,7 @@ public class PasswordUnlock : MonoBehaviour {
         password.text = "";
         feedbackText.text = "";
         if (door != null) {
-            door.SetActive(false);
+            Destroy(door);
         }
         miniGameUI.SetActive(false);
     }

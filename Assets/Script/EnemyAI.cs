@@ -16,7 +16,7 @@ public class EnemyAI : MonoBehaviour
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
         // Check if the enemy should move
-        if (distanceToPlayer < 6.5f){
+        if (distanceToPlayer < 12.5f){
             move = true;
         }
         
